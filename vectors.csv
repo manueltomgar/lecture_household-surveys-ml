@@ -1,0 +1,4 @@
+files_sp,files_en,new_names,old_names
+EPFgastos,hbs_e,EUR_HE,GASTO
+EPFhogar,hbs_h,HQ,CANTIDAD
+EPFmhogar,hbs_m,,
