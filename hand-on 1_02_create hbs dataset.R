@@ -1,5 +1,5 @@
 # Project       : Lecture on using statistical learning models with household survey microdata
-# Last update   : 09/06/2023
+# Last update   : 09/06/2026
 # Author        : Manuel Tomas (manuel.tomas@bc3research.org)
 # Institution   : Basque Centre for Climate Change (BC3)
 
@@ -15,13 +15,11 @@ rm(list = ls(all = TRUE))
 # Set language
 Sys.setenv(LANG = "en")
 
-# Set start time
-start_time = Sys.time()
-
 # Install and load any required R-package
 packages_loaded <- installed.packages()
 packages_needed <- c ( "dplyr"       ,
                        "openxlsx"    ,
+                       "reshape2"    ,
                        "stringr"     ,
                        "here"        )
 for ( p in packages_needed) {
